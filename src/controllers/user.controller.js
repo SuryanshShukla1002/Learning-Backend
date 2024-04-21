@@ -297,6 +297,10 @@ const updateUserCoverImage = asyncHandler(async (req, res) => {
     )
 });
 
+const getUserChannelProfile = asyncHandler(async(req, res) => {
+    
+})
+
 
 export { registerUser, loginUser, logoutUser, refreshAccessToken, changeCurrentPassword, getCurrentUser, updateAccountDetails, updateUserAvatar,
-updateUserCoverImage }; 
+updateUserCoverImage, getUserChannelProfile }; 
